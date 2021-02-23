@@ -49,5 +49,5 @@ Two columns required:
 - userid
 - If a shop is not deemed to have conducted order brushing, assign the value 0Else, list the userid(s) that are identified as suspicious for the corresponding shopidIf there is more than 1 userid identified as suspicious, list all the userids separated by “&”, with the smaller numerical userid first.
 
-[my python code](https://github.com/sirapat-tm/ShopeeCodeLeague2020/blob/master/OrderBrushing/Orderbrushing.ipynb)  
-[my solution](https://github.com/sirapat-tm/ShopeeCodeLeague2020/blob/master/OrderBrushing/solution.csv)
+[my python code](Orderbrushing.ipynb)  
+[my solution](solution.csv)
