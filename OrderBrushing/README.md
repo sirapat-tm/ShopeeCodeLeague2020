@@ -2,6 +2,10 @@
 
 [[Students] Shopee Code League - Order Brushing](https://www.kaggle.com/c/students-order-brushing-1)
 
+[my python code](Orderbrushing.ipynb)  
+[my solution](solution.csv)
+
+
 ## **Order Brushing Detection**
 
 Abnormal user behaviors on e-commerce platforms can be detected in various ways. For example, if an item in a shop is a best seller but many of its orders come from the same buyer, we have reason to suspect that the seller is conducting order brushing. Order Brushing is a technique that may be employed by sellers to create fake orders in order to inflate the seller’s or a particular item’s rating, which may likely push that seller’s items up the search results on Shopee. To maintain the integrity of our online shopping experience, we consistently monitor and flag any possible cases of order brushing on Shopee.
@@ -47,7 +51,5 @@ Two columns required:
 
 - shopid
 - userid
-- If a shop is not deemed to have conducted order brushing, assign the value 0Else, list the userid(s) that are identified as suspicious for the corresponding shopidIf there is more than 1 userid identified as suspicious, list all the userids separated by “&”, with the smaller numerical userid first.
-
-[my python code](Orderbrushing.ipynb)  
-[my solution](solution.csv)
+- If a shop is not deemed to have conducted order brushing, assign the value 0 
+- Else, list the userid(s) that are identified as suspicious for the corresponding shopidIf there is more than 1 userid identified as suspicious, list all the userids separated by “&”, with the smaller numerical userid first.
